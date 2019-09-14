@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login_apps.LoginController">
+   <children>
+      <Pane layoutX="-3.0" prefHeight="479.0" prefWidth="241.0" style="-fx-background-color: #1b2268;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="433.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="48.0" layoutY="318.0" prefHeight="24.0" prefWidth="137.0" style="-fx-text-fill: #fcfcfc; -fx-font-size: 15pt; -fx-font-family: impact; -fx-alignment: center;" text="welcome to " />
+            <ImageView fitHeight="148.0" fitWidth="167.0" layoutX="37.0" layoutY="153.0">
+               <image>
+                  <Image url="@pictures/FOND%20BLEU.png" />
+               </image>
+            </ImageView>
+            <FontAwesomeIconView fill="#f5f5f5" glyphName="WINDOWS" layoutX="68.0" layoutY="446.0" size="20" />
+            <Text fill="WHITE" layoutX="94.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="released by HU_TECH" wrappingWidth="132.8606719970703" />
+         </children></Pane>
+      <Pane fx:id="panee" layoutX="241.0" prefHeight="479.0" prefWidth="432.0" style="-fx-background-color: #fcfcfc;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="27.0" layoutY="101.0" prefHeight="17.0" prefWidth="121.0" style="-fx-font-family: impact; -fx-font-size: 14pt;" text="&lt;/&gt; solutions" textFill="#1b2268" />
+            <HBox layoutX="50.0" layoutY="205.0">
+               <children>
+                  <TextField fx:id="usernameField" prefHeight="26.0" prefWidth="340.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="50.0" layoutY="256.0">
+               <children>
+                  <PasswordField fx:id="passwordField" prefHeight="26.0" prefWidth="340.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="118.9000015258789" layoutY="377.8999938964844">
+               <children>
+                  <Button id="btnlogin" fx:id="logbtn" mnemonicParsing="false" onAction="#onlogin" prefHeight="32.0" prefWidth="190.0" style="-fx-background-color: #1b2268; -fx-text-fill: white;" text="login">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+               </children>
+            </HBox>
+            <CheckBox layoutX="224.0" layoutY="329.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="147.0" text="forget password?" textFill="#1b2268" />
+            <ImageView fitHeight="78.0" fitWidth="101.0" layoutX="37.0" layoutY="14.0">
+               <image>
+                  <Image url="@pictures/FOND%20BLANCc.png" />
+               </image>
+            </ImageView>
+            
+  
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

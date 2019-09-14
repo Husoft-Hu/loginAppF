@@ -1,0 +1,30 @@
+
+.TextField {
+    -fx-faint-focus-color:  #1b2268;
+    
+}
+
+.jfx-snackbar-content{
+    -fx-background-color: #33ccff;
+    -fx-pref-width:486;
+}
+.jfx-snackbar-toast{
+    -fx-text-fill: #1b2268;
+     -fx-font-size:18px;
+     -fx-font-family:impact;
+        
+        
+}
+.button{
+    -fx-background-color:  #1b2268;
+    
+}
+.button:hover{
+    -fx-background-color:#1f277a;
+}
+.button:pressed{
+     -fx-background-color: #1b2268;
+}
+.button{
+    -fx-font-size:18px;
+}
